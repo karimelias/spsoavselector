@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SPSP Oakville - AV Selector</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <img src="spsp.png" />
+    <strong>St. Peter and St. Paul - Oakville - Audio Visual Selector</strong>
+    <div class="container">
+        <form action="/" method="post">
+            <table border="1">            <tr>
+            <td></td>
+            <td style="text-align: center; vertical-align: middle;">NONE</td>
+            <td style="text-align: center; vertical-align: middle;">Sanctuary HDMI-1<br>SW1-Port:(2)</td>
+            <td style="text-align: center; vertical-align: middle;">Sanctuary HDMI-4<br>SW1-Port:(6)</td>
+            <td style="text-align: center; vertical-align: middle;">Sanctuary Altar HDMI<br>SW1-Port:(10)</td>
+            <td style="text-align: center; vertical-align: middle;">Banquet Hall Kitchen side HDMI<br>SW1-Port:(14)</td>
+            <td style="text-align: center; vertical-align: middle;">Banquet Hall Gym side HDMI<br>SW1-Port:(18)</td>
+            <td style="text-align: center; vertical-align: middle;">Control Room HDMI<br>SW1-Port:(22)</td>
+            <td style="text-align: center; vertical-align: middle;">Input from GYM<br>SW1-Port:(26)</td>
+            <td style="text-align: center; vertical-align: middle;">Input from Chapel<br>SW3-Port:(1)</td>
+            </tr><tr><td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select0()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1002()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1006()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1010()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1014()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1018()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1022()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select1026()">Select ALL</button></td><td style="text-align: center; vertical-align: middle;"><button type="button" onclick="select3001()">Select ALL</button></td>            </tr>            <tr>
+            <td style="text-align: center">Audio-01-Church<br>SW1-Port:(4)</td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_4" id='SW1_4_0' value=0></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1002' value=1002></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1006' value=1006 checked ></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1010' value=1010></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1014' value=1014></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1018' value=1018></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1022' value=1022></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_1026' value=1026></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_4" id='SW1_4_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Audio-02-BanqHall<br>SW1-Port:(8)</td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_8" id='SW1_8_0' value=0></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1002' value=1002 checked ></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1006' value=1006></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1010' value=1010></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1014' value=1014></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1018' value=1018></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1022' value=1022></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_1026' value=1026></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW1_8" id='SW1_8_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Sanctuary Proj Men Side<br>SW1-Port:(1)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_1" id='SW1_1_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1002' value=1002></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1006' value=1006 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_1" id='SW1_1_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Sanctuary Proj Ladies Side<br>SW1-Port:(3)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_3" id='SW1_3_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1002' value=1002></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1006' value=1006 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_3" id='SW1_3_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Sanctuary TV Men Side<br>SW1-Port:(5)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_5" id='SW1_5_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1002' value=1002></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1006' value=1006 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_5" id='SW1_5_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Sanctuary TV Ladies Side<br>SW1-Port:(7)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_7" id='SW1_7_0' value=0></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1002' value=1002 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_7" id='SW1_7_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">TV Hallway<br>SW1-Port:(9)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_9" id='SW1_9_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1018' value=1018></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1022' value=1022 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_9" id='SW1_9_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Banquet hall Proj Kitchen side<br>SW1-Port:(11)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_11" id='SW1_11_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1018' value=1018></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1022' value=1022 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_11" id='SW1_11_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Banquet hall Proj Gym side<br>SW1-Port:(13)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_13" id='SW1_13_0' value=0></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1002' value=1002 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_13" id='SW1_13_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Kitchen TV<br>SW1-Port:(15)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_15" id='SW1_15_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1018' value=1018></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1022' value=1022 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_15" id='SW1_15_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Streaming PC<br>SW1-Port:(17)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_17" id='SW1_17_0' value=0></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1002' value=1002 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_17" id='SW1_17_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Altar Video streaming<br>SW1-Port:(19)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW1_19" id='SW1_19_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1002' value=1002></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1006' value=1006 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW1_19" id='SW1_19_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Gym Projector<br>SW2-Port:(1)</td>
+<td style="text-align:center;"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW2_1" id='SW2_1_0' value=0></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1022' value=1022></td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_1026' value=1026 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW2_1" id='SW2_1_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Audio-Gym<br>SW2-Port:(2)</td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW2_2" id='SW2_2_0' value=0></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1002' value=1002></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1006' value=1006></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1010' value=1010></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1014' value=1014></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1018' value=1018></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1022' value=1022></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_1026' value=1026 checked ></td>
+<td style="text-align:center;" bgcolor=0x99ccff><input type="radio" style=“width:100px; height:100px;” name="outputSW2_2" id='SW2_2_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Chapel-TV1<br>SW3-Port:(2)</td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW3_2" id='SW3_2_0' value=0 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_2" id='SW3_2_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Chapel-TV2<br>SW3-Port:(4)</td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW3_4" id='SW3_4_0' value=0 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_4" id='SW3_4_3001' value=3001></td>
+            <tr>
+            <tr>
+            <td style="text-align: center">Chapel-TV3<br>SW3-Port:(6)</td>
+<td style="text-align:center;" bgcolor="green"><input type="radio" align="middle" style=“width: 20em; height: 20em;” name="outputSW3_6" id='SW3_6_0' value=0 checked ></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1002' value=1002></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1006' value=1006></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1010' value=1010></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1014' value=1014></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1018' value=1018></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1022' value=1022></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_1026' value=1026></td>
+<td style="text-align:center;"><input type="radio" style=“width:100px; height:100px;” name="outputSW3_6" id='SW3_6_3001' value=3001></td>
+            <tr>
+            </tr></table>
+<script>
+function select0() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_0"== btns[i].id
+|| "SW1_8_0"== btns[i].id
+|| "SW1_1_0"== btns[i].id
+|| "SW1_3_0"== btns[i].id
+|| "SW1_5_0"== btns[i].id
+|| "SW1_7_0"== btns[i].id
+|| "SW1_9_0"== btns[i].id
+|| "SW1_11_0"== btns[i].id
+|| "SW1_13_0"== btns[i].id
+|| "SW1_15_0"== btns[i].id
+|| "SW1_17_0"== btns[i].id
+|| "SW1_19_0"== btns[i].id
+|| "SW2_1_0"== btns[i].id
+|| "SW2_2_0"== btns[i].id
+|| "SW3_2_0"== btns[i].id
+|| "SW3_4_0"== btns[i].id
+|| "SW3_6_0"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1002() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1002"== btns[i].id
+|| "SW1_8_1002"== btns[i].id
+|| "SW1_1_1002"== btns[i].id
+|| "SW1_3_1002"== btns[i].id
+|| "SW1_5_1002"== btns[i].id
+|| "SW1_7_1002"== btns[i].id
+|| "SW1_9_1002"== btns[i].id
+|| "SW1_11_1002"== btns[i].id
+|| "SW1_13_1002"== btns[i].id
+|| "SW1_15_1002"== btns[i].id
+|| "SW1_17_1002"== btns[i].id
+|| "SW1_19_1002"== btns[i].id
+|| "SW2_1_1002"== btns[i].id
+|| "SW2_2_1002"== btns[i].id
+|| "SW3_2_1002"== btns[i].id
+|| "SW3_4_1002"== btns[i].id
+|| "SW3_6_1002"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1006() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1006"== btns[i].id
+|| "SW1_8_1006"== btns[i].id
+|| "SW1_1_1006"== btns[i].id
+|| "SW1_3_1006"== btns[i].id
+|| "SW1_5_1006"== btns[i].id
+|| "SW1_7_1006"== btns[i].id
+|| "SW1_9_1006"== btns[i].id
+|| "SW1_11_1006"== btns[i].id
+|| "SW1_13_1006"== btns[i].id
+|| "SW1_15_1006"== btns[i].id
+|| "SW1_17_1006"== btns[i].id
+|| "SW1_19_1006"== btns[i].id
+|| "SW2_1_1006"== btns[i].id
+|| "SW2_2_1006"== btns[i].id
+|| "SW3_2_1006"== btns[i].id
+|| "SW3_4_1006"== btns[i].id
+|| "SW3_6_1006"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1010() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1010"== btns[i].id
+|| "SW1_8_1010"== btns[i].id
+|| "SW1_1_1010"== btns[i].id
+|| "SW1_3_1010"== btns[i].id
+|| "SW1_5_1010"== btns[i].id
+|| "SW1_7_1010"== btns[i].id
+|| "SW1_9_1010"== btns[i].id
+|| "SW1_11_1010"== btns[i].id
+|| "SW1_13_1010"== btns[i].id
+|| "SW1_15_1010"== btns[i].id
+|| "SW1_17_1010"== btns[i].id
+|| "SW1_19_1010"== btns[i].id
+|| "SW2_1_1010"== btns[i].id
+|| "SW2_2_1010"== btns[i].id
+|| "SW3_2_1010"== btns[i].id
+|| "SW3_4_1010"== btns[i].id
+|| "SW3_6_1010"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1014() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1014"== btns[i].id
+|| "SW1_8_1014"== btns[i].id
+|| "SW1_1_1014"== btns[i].id
+|| "SW1_3_1014"== btns[i].id
+|| "SW1_5_1014"== btns[i].id
+|| "SW1_7_1014"== btns[i].id
+|| "SW1_9_1014"== btns[i].id
+|| "SW1_11_1014"== btns[i].id
+|| "SW1_13_1014"== btns[i].id
+|| "SW1_15_1014"== btns[i].id
+|| "SW1_17_1014"== btns[i].id
+|| "SW1_19_1014"== btns[i].id
+|| "SW2_1_1014"== btns[i].id
+|| "SW2_2_1014"== btns[i].id
+|| "SW3_2_1014"== btns[i].id
+|| "SW3_4_1014"== btns[i].id
+|| "SW3_6_1014"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1018() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1018"== btns[i].id
+|| "SW1_8_1018"== btns[i].id
+|| "SW1_1_1018"== btns[i].id
+|| "SW1_3_1018"== btns[i].id
+|| "SW1_5_1018"== btns[i].id
+|| "SW1_7_1018"== btns[i].id
+|| "SW1_9_1018"== btns[i].id
+|| "SW1_11_1018"== btns[i].id
+|| "SW1_13_1018"== btns[i].id
+|| "SW1_15_1018"== btns[i].id
+|| "SW1_17_1018"== btns[i].id
+|| "SW1_19_1018"== btns[i].id
+|| "SW2_1_1018"== btns[i].id
+|| "SW2_2_1018"== btns[i].id
+|| "SW3_2_1018"== btns[i].id
+|| "SW3_4_1018"== btns[i].id
+|| "SW3_6_1018"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1022() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1022"== btns[i].id
+|| "SW1_8_1022"== btns[i].id
+|| "SW1_1_1022"== btns[i].id
+|| "SW1_3_1022"== btns[i].id
+|| "SW1_5_1022"== btns[i].id
+|| "SW1_7_1022"== btns[i].id
+|| "SW1_9_1022"== btns[i].id
+|| "SW1_11_1022"== btns[i].id
+|| "SW1_13_1022"== btns[i].id
+|| "SW1_15_1022"== btns[i].id
+|| "SW1_17_1022"== btns[i].id
+|| "SW1_19_1022"== btns[i].id
+|| "SW2_1_1022"== btns[i].id
+|| "SW2_2_1022"== btns[i].id
+|| "SW3_2_1022"== btns[i].id
+|| "SW3_4_1022"== btns[i].id
+|| "SW3_6_1022"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select1026() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_1026"== btns[i].id
+|| "SW1_8_1026"== btns[i].id
+|| "SW1_1_1026"== btns[i].id
+|| "SW1_3_1026"== btns[i].id
+|| "SW1_5_1026"== btns[i].id
+|| "SW1_7_1026"== btns[i].id
+|| "SW1_9_1026"== btns[i].id
+|| "SW1_11_1026"== btns[i].id
+|| "SW1_13_1026"== btns[i].id
+|| "SW1_15_1026"== btns[i].id
+|| "SW1_17_1026"== btns[i].id
+|| "SW1_19_1026"== btns[i].id
+|| "SW2_1_1026"== btns[i].id
+|| "SW2_2_1026"== btns[i].id
+|| "SW3_2_1026"== btns[i].id
+|| "SW3_4_1026"== btns[i].id
+|| "SW3_6_1026"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<script>
+function select3001() {
+var btns = document.querySelectorAll('input[type="radio"]')
+for(var i=0;i<btns.length;i++){
+if( 0 == 1 
+|| "SW1_4_3001"== btns[i].id
+|| "SW1_8_3001"== btns[i].id
+|| "SW1_1_3001"== btns[i].id
+|| "SW1_3_3001"== btns[i].id
+|| "SW1_5_3001"== btns[i].id
+|| "SW1_7_3001"== btns[i].id
+|| "SW1_9_3001"== btns[i].id
+|| "SW1_11_3001"== btns[i].id
+|| "SW1_13_3001"== btns[i].id
+|| "SW1_15_3001"== btns[i].id
+|| "SW1_17_3001"== btns[i].id
+|| "SW1_19_3001"== btns[i].id
+|| "SW2_1_3001"== btns[i].id
+|| "SW2_2_3001"== btns[i].id
+|| "SW3_2_3001"== btns[i].id
+|| "SW3_4_3001"== btns[i].id
+|| "SW3_6_3001"== btns[i].id
+) {
+btns[i].checked=true;
+}
+}
+}
+</script>
+<div>
+    <label for="password">Password:</label>
+    <input type="password" name="password" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');">
+</div>
+
+<input type="submit" class="ghost-button" value="Update">
+
+
+
+</form>
+</fieldset>
+</div>
+</body>
+
+</html>
